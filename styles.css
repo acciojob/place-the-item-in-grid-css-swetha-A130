@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2px;
+}
+
+.item {
+  background-color: red; /* just to make the cells visible */
+}
